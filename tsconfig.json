@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2017",
+        "paths": {
+            "*": [ "./*" ],
+            "test/*": ["./test/*"]
+        },
+        "types": ["node", "@wdio/sync","@wdio/mocha-framework", "@wdio/devtools-service"],
+        "noImplicitAny": true
+    },
+    "include": [
+        "./test/**/*.ts"
+    ]
+}
