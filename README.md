@@ -1,10 +1,10 @@
-###Install all dependencies:
+Install all dependencies:
 ```
 npm install
 ```
 
 
-###Run tests on chrome: 
+Run tests on chrome: 
 ```
 npx wdio wdio.conf.js
 ```
